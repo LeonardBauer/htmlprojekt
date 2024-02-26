@@ -1,0 +1,71 @@
+{
+  "svelte": {
+    "name": "Svelte",
+    "img": "/svelte.png"
+  },
+  "express": {
+    "name": "Express.js",
+    "img": "/express.png"
+  },
+  "mongodb":{
+    "name": "Mongo DB",
+    "img":"/mongodb.png"
+},
+  "stripe": {
+    "name": "Stripe",
+    "img": "/stripe.png"
+  },
+  "tailwind": {
+    "name": "Tailwind CSS",
+    "img": "/tailwind.png"
+  },
+  "spotify": {
+    "name": "Spotify",
+    "img": "/spotify.png"
+  },
+  "netlify": {
+      "name": "Netlify",
+      "img": "/netlify.png"
+  },
+  "javascript": {
+    "name": "JavaScript",
+    "img": "/javascript.png"
+  },
+  "typescript": {
+    "name": "TypeScript",
+    "img": "/typescript.png"
+  },
+  "cpp": {
+    "name": "C++",
+    "img": "/cpp.png"
+  },
+  "asm": {
+    "name": "Assembly",
+    "img": "/asmx86.png"
+  },
+  "c": {
+    "name": "C",
+    "img": "/c.png"
+  },
+  "php": {
+    "name": "PHP",
+    "img": "/php.png"
+  },
+  "html": {
+    "name": "HTML",
+    "img": "/html.png"
+  },
+  "vue": {
+    "name": "Vue.js",
+    "img": "/vue.png"
+  },
+  "nuxt": {
+    "name": "Nuxt.js",
+    "img": "/nuxt.png"
+  },
+  "mysql": {
+    "name": "MySQL",
+    "img": "/mysql.png"
+  }
+
+}
