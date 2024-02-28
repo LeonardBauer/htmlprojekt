@@ -28,6 +28,7 @@
         border-radius:100%;
         background:radial-gradient(circle at 50% 50%,transparent 35%,rgba(120,120,120,50%) 0%);
         backdrop-filter: blur(3px);
+        z-index: 100000;
 
     }
     .radial-option{
