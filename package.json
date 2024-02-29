@@ -29,6 +29,7 @@
 		"@fortawesome/free-solid-svg-icons": "^6.5.1",
 		"@sveltejs/adapter-static": "^3.0.1",
 		"lodash": "^4.17.21",
+		"svelte-carousel": "^1.0.25",
 		"svelte-fa": "^4.0.2",
 		"three": "^0.160.0"
 	}

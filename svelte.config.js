@@ -8,11 +8,13 @@ const config = {
 	kit: {
 		adapter: adapter(),
 
+
 	},
 	ssr:{
 		noExternal:['three']
 	},
-	preprocess: vitePreprocess()
+	preprocess: vitePreprocess(),
+	
 };
 
 

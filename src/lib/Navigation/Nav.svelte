@@ -29,7 +29,7 @@
         background:radial-gradient(circle at 50% 50%,transparent 35%,rgba(120,120,120,50%) 0%);
         backdrop-filter: blur(3px);
         z-index: 100000;
-
+        
     }
     .radial-option{
         display:flex;
@@ -72,6 +72,7 @@
         border-radius:100% 0 0 0;
         background:radial-gradient(circle at 100% 100%,transparent 35%,var(--primary) 0%);
         transform-origin:bottom right;
+        
     }
     .lineselwrapper{
         height:400px;
