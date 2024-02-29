@@ -24,7 +24,7 @@
                     {#each project.frameworks as framework }
                         <div class="text-text/70 h-[20px] mt-2 ">
                             {#if framework}
-                                <img src="{objects[framework]?.img}" class="h-full mr-1" alt="">
+                                <img src="{objects[framework]?.img}" class="h-full mr-1" alt="{objects[framework]?.name}">
                             {/if}
                         </div>
                     {/each}

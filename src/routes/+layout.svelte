@@ -18,9 +18,14 @@
 
 
 <div class="w-[100vw] h-[100vh] flex justify-center absolute">
-    <div class="outlines lg:w-[60vw] w-[95vw] min-w-[300px] h-full relative">
-        <slot/>
+    <div class="outlines lg:w-[60vw] w-[95vw] min-w-[300px] h-full fixed">
+    
     </div>
+    <div class="lg:w-[60vw] w-[95vw] min-w-[300px] h-full p-[0.8vw] relative">
+        <slot/>
+        
+    </div>
+    
 </div>
 
 
