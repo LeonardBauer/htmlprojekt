@@ -49,7 +49,7 @@
         justify-content:center;
         align-items:center;
         font-size: 40px;
-        color:var(--text);
+        color:white;
 
     }
     .r90>div{
@@ -92,7 +92,7 @@
         top:50%;
         left:50%;
         transform:translate(-50%,-50%);
-        color:#F5F5F5;
+        color:var(--text);
 
         backdrop-filter: blur(3px);
 
