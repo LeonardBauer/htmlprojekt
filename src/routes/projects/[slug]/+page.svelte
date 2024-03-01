@@ -6,7 +6,7 @@
     //TODONE: CAROUSEL MOBILE IMAGE
     //TODO: Eine Page
     //TODONE: Fix List of Frameworks
-    //Todo: Fix Colors
+    //TODONE: Fix Colors
     export let data;
     import objects from "./objects.json";
     import { title } from "$lib/js/titleStore.js";
@@ -31,8 +31,8 @@
         {/each}
     </Carousel>
 {/if}
-<h1>{data.title}</h1>
-<div class="flex flex-row flex-wrap">
+<h1 class="text-[10vw] md:text-7xl mb-3">{data.title}</h1>
+<div class="flex flex-row flex-wrap mb-3">
     {#each data.frameworks as frameW}
         {#if frameW}
             <span class="h-[42px] lg:text-2xl min-w-fit relative flex justify-center items-center p-2 bg-[var(--secondary)] rounded-md mr-2 mb-2"><img src="{objects[frameW].img}" alt="{objects[frameW].name}" class="h-full mr-1" ><span class="w-fit">{objects[frameW].name}</span></span>
@@ -41,10 +41,12 @@
 
 </div>
 
-<div>{@html data.description}</div>
+<div class="text-3xl mb-3"
+>{@html data.description}
+</div>
 
 {#each data.content as content}
-    <div class="mb-6 text-xl bg-[var(--accent)] p-5 rounded-2xl">
+    <div class="mb-6 text-xl bg-accent/20 p-5 rounded-2xl">
         <div class="font-bold mb-2" >{content.title}</div>
         <div class="">{content.content}</div>
     </div>
