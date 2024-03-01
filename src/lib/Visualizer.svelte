@@ -1,19 +1,23 @@
 
 
 
-<div id="container" class="h-full w-full">
+<div id="container" class="h-full w-full" >
 
 </div>
 
-
-<script >
+<!-- Execute Script after DOM has loaded-->
+<script  >
     import { browser } from '$app/environment';
 
     import * as THREE from 'three';
+		import {onMount} from "svelte";
 
 
+		
     if(browser) {
-        const VS_ = `
+			onMount(() => {
+				
+				const VS_ = `
     uniform float u_time;
     vec3 mod289(vec3 x)
     {
@@ -156,7 +160,7 @@
         let id = localStorage.getItem("instance");
         let elem = document.getElementById("container");
         const uniforms = {
-            u_resolution:{type:'v2', value: new THREE.Vector2(elem.offsetWidth,elem.offsetHeight)},
+            u_resolution:{type:'v2', value: new THREE.Vector2(elem?.offsetWidth,elem?.offsetHeight)},
             u_time:{type:'f',value:0.0}
         }
         const scene = new THREE.Scene();
@@ -216,6 +220,8 @@
             renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
             renderer.render(scene, camera)
         })
+			});
+				
     }
 
 </script>

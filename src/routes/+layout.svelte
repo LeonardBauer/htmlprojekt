@@ -3,6 +3,7 @@
     import "../app.pcss";
     import { title } from "$lib/js/titleStore.js";
     import Footer from "$lib/Navigation/Footer.svelte";
+    import Navbar from "$lib/Navigation/Navbar.svelte";
 
 
     title.set('Home');
@@ -15,6 +16,7 @@
 
 <nav>
     <Nav></Nav>
+    
 </nav>
 
 
@@ -23,8 +25,12 @@
     
     </div>
     <div class="lg:w-[60vw] w-[95vw] min-w-[300px] h-full p-[0.8vw] relative">
+        <nav>
+            <Navbar></Navbar>
+        </nav>
+        <div class="relative">
         <slot/>
-        
+        </div>
     </div>
     
     

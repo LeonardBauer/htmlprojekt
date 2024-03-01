@@ -16,47 +16,11 @@
 />
 
 <div
-	class="h-80 flex justify-center items-center flex-col relative bg-[var(--secondary)]"
+	class="h-40 flex justify-center items-center flex-col relative bg-[var(--secondary)]"
 >
-	<div class="flex p-10 text-left">
+	<div class="flex text-left">
 		<div class="col">
-			<div class="border-l mr-3 pl-3 font-bold">About Us</div>
-			<div class="border-l mr-3 pl-3">File Exchange</div>
-			<div class="border-l mr-3 pl-3">Jobs</div>
-			<div class="border-l mr-3 pl-3">FAQs</div>
-		</div>
-		<div class="col text-left">
-			<div class="border-l mr-3 pl-3 font-bold">Contact</div>
-			<div class="border-l mr-3 pl-3">Business Inquiries</div>
-			<div class="border-l mr-3 pl-3">Address</div>
-			<div class="border-l mr-3 pl-3">Support</div>
-		</div>
-		<div class="col text-left">
-			<div class="border-l mr-3 pl-3 font-bold">Community</div>
-			<div class="border-l mr-3 pl-3">Developers</div>
-			<div class="border-l mr-3 pl-3">API</div>
-			<div class="border-l mr-3 pl-3">Investors</div>
-		</div>
-		<div class="col text-left flex flex-col">
-			<div class="border-l mr-3 pl-3 font-bold">Follow Us</div>
-			<div class="flex flex-row">
-				<div class="flex flex-col mt-2">
-					<div class="border-l mr-4 pl-3 fa-brands fa-instagram mt-1">
-						<Fa icon={faInstagram} />
-					</div>
-					<div class="border-l mr-4 pl-3 fa-brands fa-tiktok mt-1">
-						<Fa icon={faTiktok} />
-					</div>
-				</div>
-				<div class="flex flex-col mt-2">
-					<div class="border-l mr-4 pl-3 fa-brands fa-facebook mt-1">
-						<Fa icon={faFacebook} />
-					</div>
-					<div class="border-l mr-4 pl-3 fa-brands fa-github mt-1">
-						<Fa icon={faGithub} />
-					</div>
-				</div>
-			</div>
+			<div class="border-l  pl-2 font-bold"><a href=""> About Me</a></div>
 		</div>
 	</div>
 	
@@ -69,7 +33,6 @@
 	>
 		<div class="mr-3 pl-3">Contact</div>
 		<div class="border-l mr-3 pl-3">Legal</div>
-		<div class="border-l mr-3 pl-3">Terms of Services</div>
 
 		<div class="border-l mr-3 pl-3">Cookie Statement</div>
 	</div>

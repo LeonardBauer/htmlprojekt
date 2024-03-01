@@ -9,7 +9,7 @@
 
 {#each Object.values(projects) as project }
     <a href="projects/{project.slug}" class="noDirLink">
-        <div  class="h-[10vh] max-h-[200px]  bg-[var(--secondary)] mb-1.5 flex items-center p-3">
+        <div  class="rounded-md max-h-[200px]  bg-[var(--secondary)] mb-1.5 flex items-center p-3">
             <div class="ml-4 mr-7">
                 {@html project.icon}
             </div>
@@ -21,6 +21,9 @@
                     {project.teaser}
                 </div>
                 <div class=" flex flex-row">
+                    <div class="text-text/70 h-[20px] mt-2 ">
+                    </div>
+                    
                     {#each project.frameworks as framework }
                         <div class="text-text/70 h-[20px] mt-2 ">
                             {#if framework}
