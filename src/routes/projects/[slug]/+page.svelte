@@ -2,13 +2,15 @@
     /** @type {import('./$types').PageData} */
     import Carousel from 'svelte-carousel';
     import { browser } from '$app/environment';
-    
+    //TODO: NAVBAR
+    //TODO: CAROUSEL MOBILE IMAGE
+    //TODO: Eine Page
+    //TODO: Footer
     export let data;
     import objects from "./objects.json";
     import { title } from "$lib/js/titleStore.js";
     let carousel;
     title.set(data.title);
-    //TODO: Remove Color add image instead
 </script>
 
 {#if browser}

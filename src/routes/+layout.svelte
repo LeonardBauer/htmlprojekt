@@ -2,6 +2,7 @@
     import Nav from "$lib/Navigation/Nav.svelte";
     import "../app.pcss";
     import { title } from "$lib/js/titleStore.js";
+    import Footer from "$lib/Navigation/Footer.svelte";
 
 
     title.set('Home');
@@ -17,7 +18,7 @@
 </nav>
 
 
-<div class="w-[100vw] h-[100vh] flex justify-center absolute">
+<div class="w-[100vw] min-h-[100vh] flex flex-col items-center">
     <div class="outlines lg:w-[60vw] w-[95vw] min-w-[300px] h-full fixed">
     
     </div>
@@ -26,7 +27,10 @@
         
     </div>
     
+    
 </div>
+<Footer></Footer>
+
 
 
 

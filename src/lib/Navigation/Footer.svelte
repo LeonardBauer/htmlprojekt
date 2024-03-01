@@ -16,7 +16,7 @@
 />
 
 <div
-	class="h-80 flex justify-center items-center flex-col relative bg-[var(--color-secondary-background)]"
+	class="h-80 flex justify-center items-center flex-col relative bg-[var(--secondary)]"
 >
 	<div class="flex p-10 text-left">
 		<div class="col">
@@ -70,10 +70,9 @@
 		<div class="mr-3 pl-3">Contact</div>
 		<div class="border-l mr-3 pl-3">Legal</div>
 		<div class="border-l mr-3 pl-3">Terms of Services</div>
-		<a
-			class="border-l mr-3 pl-3 text-[#fff] cursor-pointer"
-			href="/privacy-policy">Privacy Policy</a
-		>
+
 		<div class="border-l mr-3 pl-3">Cookie Statement</div>
 	</div>
 </div>
+
+
