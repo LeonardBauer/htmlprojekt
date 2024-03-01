@@ -133,7 +133,11 @@
       {
         "src": "/canvas/canvas1.png",
         "alt": "Introducing Canvas Crossing: A Collaborative Drawing Adventure"
-      }
+      },
+        {
+            "src": "/canvas/canvas2.png",
+            "alt": "Unleash Your Creativity with Canvas Crossing"
+        }
     ],
     "content": [
       {
