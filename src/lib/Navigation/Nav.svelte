@@ -1,5 +1,5 @@
 <style>
-
+    
     .body{
         background: linear-gradient(green 50%,red 50%)
     }
@@ -49,7 +49,7 @@
         justify-content:center;
         align-items:center;
         font-size: 40px;
-        color:white;
+        color:var(--text);
 
     }
     .r90>div{

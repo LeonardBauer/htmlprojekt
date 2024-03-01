@@ -6,7 +6,6 @@
     export let data;
     import objects from "./objects.json";
     import { title } from "$lib/js/titleStore.js";
-    
     let carousel;
     title.set(data.title);
     //TODO: Remove Color add image instead
@@ -19,16 +18,18 @@
       autoplayProgressVisible
       pauseOnFocus
     >
-        {#each colors as { color, text } (color)}
-            <Color {color} {text} />
+        {#each data.images as img}
+            <div class="w-full flex justify-center">
+                <img src="{img.src}" alt="{img.alt}" class="h-[26vw]">
+            </div>
         {/each}
     </Carousel>
 {/if}
 <h1>{data.title}</h1>
-<div class="flex flex-row">
+<div class="flex flex-row flex-wrap">
     {#each data.frameworks as frameW}
         {#if frameW}
-            <span class="h-[42px] text-2xl relative flex justify-center items-center p-2 bg-[var(--secondary)] rounded-md mr-2"><img src="{objects[frameW].img}" alt="{objects[frameW].name}" class="h-full mr-1 x" ><span class="w-fit">{objects[frameW].name}</span></span>
+            <span class="h-[42px] text-2xl relative flex justify-center items-center p-2 bg-[var(--secondary)] rounded-md mr-2 mb-2"><img src="{objects[frameW].img}" alt="{objects[frameW].name}" class="h-full mr-1 x" ><span class="w-fit">{objects[frameW].name}</span></span>
         {/if}
     {/each}
 
