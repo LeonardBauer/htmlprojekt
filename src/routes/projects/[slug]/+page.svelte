@@ -5,7 +5,6 @@
     //TODO: NAVBAR
     //TODO: CAROUSEL MOBILE IMAGE
     //TODO: Eine Page
-    //TODO: Footer
     export let data;
     import objects from "./objects.json";
     import { title } from "$lib/js/titleStore.js";
