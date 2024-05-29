@@ -18,7 +18,7 @@
 </div>
 <div class="lg:w-[43vw] w-[80vw]">
     <span class="text-[calc(1.5vw+12px)]">
-    and I am a 17 year old ['developer','student'] based in Germany near Cologne. <br/><br/>
+    and I am a 18 year old ['developer','student'] based in Germany near Cologne. <br/><br/>
 </span>
 </div>
 <span class="text-[calc(1.5vw+12px)]">
